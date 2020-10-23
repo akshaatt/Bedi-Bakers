@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/051a3a9955.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script>
+        function openSlideMenu(){
+            document.getElementById('menu').style.width = '250px';
+            document.getElementById('content').style.marginLeft = '250px';
+
+        }
+        function closeSlideMenu(){
+            document.getElementById('menu').style.width = '0px';
+            document.getElementById('content').style.marginLeft = '0px';
+
+        }
+    </script>
+</head>
+<body>
+  <section id="head">
+      <div class="head">
+          <p>Bedi Bakers Co-Orperation| Moradabad</p>
+      </div>
+  </section> 
+  <div class="navbar">
+  <div id="content">
+      <span class="slide">
+          <a href="#" onclick="openSlideMenu()">
+        <i class="fas fa-bars"></i>
+        </a>
+      </span>
+      <div id="menu" class="nav"> 
+          <a href="#" class="close" onclick="closeSlideMenu()">
+        <i class="fas fa-times"></i>
+        </a>
+        <a href="#" >Home</a>
+        <a href="#">About</a>
+        <a href="#">Items</a>
+        <a href="#">Contact</a>
+      </div>
+
+  </div> 
+  <div class="search">
+      <input type="text" placeholder="Search Your Order"><i class="fas fa-search"></i>
+  </div>
+  </div>
+  <section id="home">
+      <div class="logo">
+          <img src="bedi.png" alt="Error" class="img1">
+          <div class="logo-text">
+              <h1>BEDI BAKERS <i class="fa fa-cutlery"></i></h1>
+              <h3>The Egg<font style="border-bottom: 3.5px solid #151515">less Bak</font>ery</h3>
+              <h5>Traditional</h5>
+              <p>Since 1955</p>
+          </div>
+      </div>
+  </section>
+</body>
+</html>
