@@ -55,9 +55,10 @@ a {
 }
 
 .cd-intro {
-  width: 90%;
-  max-width: 768px;
+  width: 100%;
+  max-width: 10000px;
   text-align: center;
+  margin-left: 30px;
 }
 
 .cd-intro {
@@ -92,7 +93,7 @@ a {
 
 .cd-words-wrapper {
   display: inline-block;
-  position: relative;
+  /* position: relative; */
   text-align: left;
 }
 .cd-words-wrapper b {
