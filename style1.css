@@ -8,6 +8,11 @@ body{
 html{
     scroll-behavior: smooth;
 }
+title{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: calibri;
+}
 ::-webkit-scrollbar{
     width: 9px;
 }
@@ -560,7 +565,7 @@ padding: 30px 0px;
     transform: scale(1.1);
     color: #666;
 }
-.cnt-email{
+.cnt-email a{
     padding-top: 5px;
     color: #ffe588;
     font-size: 1.2rem;
@@ -570,7 +575,54 @@ padding: 30px 0px;
     justify-content: center;
     font-weight: 700;
 }
-.cnt-email i{
+.cnt-email a i{
     padding: 8px;
     font-size: 1.7rem;
+}
+.copyright{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.crt{
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 700;
+    font-family: calibri;
+    font-size: 1rem;
+}
+.crt-2{
+    color: #fff;
+    opacity: 0.7;
+    font-weight: 700;
+    font-family: calibri;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+.crt-3{
+    color: #fff;
+    opacity: 0.7;
+    font-family: calibri;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+.crt-3 a{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 0.9rem;
+    text-decoration: none;
+    letter-spacing: 4px;
+
+}
+.crt a i{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1rem;
+    letter-spacing: 4px;
 }
