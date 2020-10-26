@@ -217,6 +217,7 @@ border-radius: 0%;
     right: 50px;
     font-size: 1.8rem;
     text-align: center;
+    opacity: 0.8;
 }
 #about{
     height: 100vh;
@@ -355,7 +356,7 @@ padding: 30px 0px;
     font-size: 2rem;
 }
 .item-container{
-    position: relative;
+    /* position: absolute; */
     width: 100%;
     display: grid;
     justify-items: center;
@@ -375,7 +376,7 @@ padding: 30px 0px;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
-    z-index: -1 !important;
+    z-index: -2 ;
     transition: 0.3s ease-in-out;
 }
 .item-card:hover{
@@ -390,7 +391,8 @@ padding: 30px 0px;
     left: 0px;
     /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
     box-shadow: 0 5px 12px rgba(255, 255, 255, 0.5);
-    z-index: 1;
+    /* z-index: 0;
+     */
 }
 .image2{
     width: 260px;
@@ -461,8 +463,11 @@ padding: 30px 0px;
     font-family: cursive;
 }
 #contact{
-    height: 30vh;
+    height: 50vh;
     background: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .cnt-head{
     display: flex;
@@ -506,6 +511,8 @@ padding: 30px 0px;
     cursor: pointer;
     height: 30px;
     width: 150px;
+    border: none;
+    outline: none;
 }
 .cnt-btn-in{
     display: flex;
@@ -525,4 +532,45 @@ padding: 30px 0px;
     background: #ffe580;
     transform: scale(1.1);
 
+}
+.social{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    padding-bottom: 0;
+  
+    
+}
+
+.social i{
+    color: #333;
+    padding: 8px 10px;
+    transition: 0.3s;
+    /* border: 1px solid #333; */
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    /* letter-spacing: 50px; */
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+.social i:hover{
+    transform: scale(1.1);
+    color: #666;
+}
+.cnt-email{
+    padding-top: 5px;
+    color: #ffe588;
+    font-size: 1.2rem;
+    font-family: calibri;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.cnt-email i{
+    padding: 8px;
+    font-size: 1.7rem;
 }
