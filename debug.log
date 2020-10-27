@@ -4,3 +4,6 @@
 [1024/133319.737:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\hawkeye_pirate\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\684cd466-fc46-4bbe-a033-0a1e5fddea63: The system cannot find the path specified. (0x3)
 [1025/075207.244:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1026/060220.713:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1026/112555.594:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1026/222526.174:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1027/114443.298:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
