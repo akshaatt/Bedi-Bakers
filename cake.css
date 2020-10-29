@@ -1,4 +1,63 @@
+body{
+    background: #111;
+    margin: 0;
+    padding: 0;
+}
+#head{
+    height: 15vh;
+    background: #ffe588;
+    margin-bottom: 20px;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.back i{
+    font-size: 2.3rem;
+    background: #151515;
+    border-radius: 50%;
+    padding: 10px;
+    color: #ffe588;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+    height: 35px;
+    width: 35px;
+}
+.back{
+    padding: 20px;
+    
+}
+.tele{
+    letter-spacing: 20px;
+    padding: 15px;
+    text-align: center;
+    /* height: 5px;
+    width: 5px; */
+  
+    
+}
+.tele i{
+    font-size: 2rem;
+    background: #151515;
+    border-radius: 50%;
+    padding: 12px;
+    color: #ffe588;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+    height: 35px;
+    width: 35px;
+    
+}
+#cake{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+    grid-gap: 25px;
+   
+}
 .container{
+    
     height: 250px;
     width: 300px;
     border-radius: 20px;
@@ -9,7 +68,7 @@
     align-items: center;
     justify-content: space-evenly;
     transition: 0.5s;
-    position: absolute;
+    position: relative;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
 }
 .image{
@@ -100,27 +159,40 @@
     font-family: calibri;
     font-weight: 700;
 }
-.btns{
+
+.item-btn{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 10px;
+    padding-top: 10px;
 }
-.btn1{
-    height: 20px;
-    width: 110px;
-    padding: 7px;
+.item-btn1:hover,
+.item-btn2:hover{
+    height: 30px;
+    width: 100px;
+    background: #ffe588;
+    color: #151515;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 800;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+}
+.item-btn2,
+.item-btn1{
+    height: 30px;
+    width: 100px;
+    background: #151515;
+    color: #ffe588;
     text-transform: uppercase;
-    font-family: calibri;
-    background: transparent;
-    outline: none;
-    border: none;
-    color: #151555;
-    font-size: 1rem;
-    cursor: pointer;
-    font-weight: 700;
-    background-color: #ffe588;
+    font-size: 0.7rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
 }
